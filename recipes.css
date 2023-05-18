@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Asul&family=Concert+One&family=Eczar&family=Fruktur&family=Kavoon&family=Neuton&family=Roboto:ital@1&family=Space+Mono&family=Tillana&family=Work+Sans&display=swap');
+
 body {
+    font-family: 'Alike Angular', serif;
+    font-family: 'Asul', sans-serif;
+    font-family: 'Concert One', cursive;
+    font-family: 'Eczar', serif;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Kavoon', cursive;
+    font-family: 'Neuton', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Tillana', cursive;
+    font-family: 'Work Sans', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -18,4 +31,11 @@ nav {
     color: black;
     border-bottom: 1px;
     padding: 16px;
+}
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    color: green;
 }
