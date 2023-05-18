@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    padding: 16px;
+}
+footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+img {
+    height: 200px;
+}
+nav {
+    color: black;
+    border-bottom: 1px;
+    padding: 16px;
+}
