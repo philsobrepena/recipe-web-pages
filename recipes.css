@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Asul&family=Concert+One&family=Eczar&family=Fruktur&family=Kavoon&family=Neuton&family=Roboto:ital@1&family=Space+Mono&family=Tillana&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Asul&family=Concert+One&family=Eczar&family=Fruktur&family=Kavoon&family=Neuton&family=Roboto:ital@1&family=Space+Mono&family=Tillana&family=Unbounded:wght@200;300;700&family=Work+Sans&display=swap');
 
 body {
+    margin: 0px;
+    padding: 0px;
+
     font-family: 'Alike Angular', serif;
     font-family: 'Asul', sans-serif;
     font-family: 'Concert One', cursive;
@@ -11,31 +14,74 @@ body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Space Mono', monospace;
     font-family: 'Tillana', cursive;
+    font-family: 'Unbounded', cursive;
     font-family: 'Work Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
 }
+
+
 main {
     padding: 16px;
+
 }
+
+h1 {
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+h2 {
+    letter-spacing: 2px;
+}
+
 footer {
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(142, 194, 250);
 }
+
 img {
     height: 200px;
 }
 nav {
+    font-weight: 300;
     color: black;
-    border-bottom: 1px;
+    background-color: rgba(114, 179, 248, 0.807);
+    border-bottom: 1px solid rgb(93, 93, 93);
     padding: 16px;
 }
-a {
+
+nav a{
+    color: black;
+    font-weight: bold;
     text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.recipe a {
+    text-decoration: none;
+    color: rgba(43, 120, 254, 0.697);
+    font-weight: 800;
 
 }
 a:hover {
-    color: green;
+    color: rgb(0, 0, 0);
 }
+
+.recipebox {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* img {
+    margin-right: 15px;
+} */
+
+/* .tables :nth-child(-n+2) {
+    background-color: rgb(39, 43, 167);
+} */
